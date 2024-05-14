@@ -1,0 +1,33 @@
+
+nav {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: cneter;
+  padding: 15px 20px;
+  background-color: hsl(0, 0%, 95%);
+  box-shadow: 0 2px 4px hsl(277, 4%, 63%);
+}
+nav a {
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+}
+nav a:hover {
+  color: hsl(276, 36%, 61%);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-left, .nav-center, .nav-right {
+  display: flex;
+}
+.nav-left a, .nav-right a {
+  margin: 0 10px;
+}
+.nav-center {
+  flex-grow: 1;
+  justify-content: center;;
+}
