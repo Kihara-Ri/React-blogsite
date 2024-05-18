@@ -1,9 +1,10 @@
-import NavBar from "../Components/NavBar/NavBar";
+import LatestPosts from "../Components/LatestPosts/LatestPosts";
+import "../Components/LatestPosts/LatestPosts.css";
 
 function Home(){
   return (
     <div className="home">
-      <NavBar />
+      <LatestPosts></LatestPosts>
     </div>
   )
 }
